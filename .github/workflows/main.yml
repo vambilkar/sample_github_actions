@@ -7,8 +7,8 @@ on:
 jobs:
    hello-world:
    runs-on: window-latest
-   steps:
-     -name: "print hello world:
+steps:
+     name: "print hello world:
      run: echo "hello world"
      
    
