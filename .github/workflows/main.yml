@@ -1,0 +1,14 @@
+name: "Hello world "
+on:
+ push:
+   branches:
+     -master
+     -production
+jobs:
+   hello-world:
+   runs-on: window-latest
+   steps:
+     -name: "print hello world:
+     run: echo "hello world"
+     
+   
