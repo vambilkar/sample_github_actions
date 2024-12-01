@@ -1,11 +1,15 @@
 name: hello-world
-on: push
+on:
+  push:
+    branches:
+       -master 
+       -production
 jobs: 
    my-jobs:
      runs-on:  windows-latest
-     steps:
-       - name: mystep
-         run: date
+       steps:
+            name: mystep
+            run: date
      
 
      
