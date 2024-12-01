@@ -6,9 +6,9 @@ on:
      -production
 jobs:
    hello-world:
-   runs-on: window-latest
+   runs-on: windows-latest
 steps:
-     name: "print hello world:
+    - name: "print hello world:
      run: echo "hello world"
      
    
