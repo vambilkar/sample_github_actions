@@ -9,7 +9,7 @@ on:
    
 jobs: 
    hello_world:
-     runs-on: kali-latest
+     runs-on: ubuntu-latest
      steps:
        -name: "print hello world "
         run: echo "hello world"
