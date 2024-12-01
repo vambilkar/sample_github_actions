@@ -1,14 +1,11 @@
-name: "Hello world "
-on:
- push:
-   branches:
-     -master
-     -production
+name: hello-world
+'on': push
 jobs:
-   hello-world:
-   runs-on: windows-latest
+my-jobs:
+runs-on: windows-latest
 steps:
-    - name: "print hello world:
-     run: echo "hello world"
+- name: my-step
+run: echo "Hello-world"
+
      
    
