@@ -1,0 +1,17 @@
+name: "hello world workflow"
+#control when the action will run .
+on:
+  push:
+    branches:
+      -master
+      -production
+      
+   
+jobs: 
+   hello_world:
+     runs-on: kali-latest
+     steps:
+       -name: "print hello world "
+        run: echo "hello world"
+
+
